@@ -89,3 +89,16 @@ p {
 .container p {
   text-align: left;
 }
+
+@media (max-width: 576px) {
+  .container img {
+    margin-top: 15px;
+  }
+  .container h2,
+  .container p {
+    text-align: center;
+  }
+  .mb-5 {
+    text-align: center;
+  }
+}
